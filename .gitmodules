@@ -1,9 +1,12 @@
 [submodule "packages/tds-monitor-standalone"]
 	path = packages/tds-monitor-standalone
 	url = https://github.com/totvs/tds-monitor-standalone.git
+	branch = master
 [submodule "packages/tds-languageclient"]
 	path = packages/tds-languageclient
 	url = https://github.com/totvs/tds-languageclient.git
+	branch = master
 [submodule "packages/tds-monitor-frontend"]
 	path = packages/tds-monitor-frontend
 	url = https://github.com/totvs/tds-monitor-frontend.git
+	branch = master
