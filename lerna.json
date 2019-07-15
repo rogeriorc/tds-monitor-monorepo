@@ -1,0 +1,13 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--registry=https://registry.npmjs.org/"
+      ]
+    }
+  },
+  "version": "independent"
+}
