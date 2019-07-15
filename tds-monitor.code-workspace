@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"name": "/",
+			"path": "."
+		},
+		{
+			"name": "/tds-languageclient",
+			"path": "./packages/tds-languageclient"
+		},
+		{
+			"name": "/tds-monitor-frontend",
+			"path": "./packages/tds-monitor-frontend"
+		},
+		{
+			"name": "/tds-monitor-standalone",
+			"path": "./packages/tds-monitor-standalone"
+		}
+    ],
+    "settings": {
+        "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+		"typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    },
+    "extensions": {
+        "recommendations": [
+			"ms-vscode.jscs",
+			"dbaeumer.jshint",
+			"EditorConfig.editorconfig"
+		]
+    }
+}
