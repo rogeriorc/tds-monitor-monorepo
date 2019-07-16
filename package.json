@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "lerna bootstrap",
-    "build": "lerna run build --stream --concurrency=1 -- --"
+    "build": "lerna run build --stream --concurrency=1",
+    "watch": "lerna run --parallel build --scope @totvs/tds-languageclient --scope @totvs/tds-monitor-frontend -- -- --watch",
+    "start": "lerna run start --scope @totvs/tds-monitor-standalone",
+    "clean": "lerna run clean --stream"
   },
   "keywords": [],
   "author": "",
